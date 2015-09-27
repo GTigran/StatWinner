@@ -1,0 +1,42 @@
+﻿<div id="header-row">
+    <div class="row-container">
+        <div class="container">
+            <header>
+                <div class="login-container">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <text>Hello</text>
+                        <a href="@Url.Action("Manage", "Account")">@User.Identity.Name</a>
+                            <text>&nbsp;|&nbsp;</text>
+                            <a href="@Url.Action("Manage", "Account")">My Account</a>
+                            <text>&nbsp;|&nbsp;</text>
+                            <a href="@Url.Action("LogOff", "Account")">Sign Out</a>
+                    }
+                    else
+                    {
+                        <a href="@Url.Action("Login", "Account")">Sign In</a>
+                            <text>&nbsp;|&nbsp;</text>
+                            <a href="@Url.Action("Register", "Account")">Register</a>
+                    }
+                </div>
+                <div class="row">
+                    <div id="logo" class="span6">
+                        <a href="/Home">
+                            <img src="/Content/images/logo.png" alt="Socer">
+                        </a>
+                    </div>
+                    <div class="moduletable search-block  span6">
+                        <div class="mod-search mod-search__search-block">
+                            <form action="/joomla_47852/index.php" method="post" class="navbar-form">
+                                <label for="searchword" class="element-invisible">Search...</label> <input id="searchword" name="searchword" maxlength="20" class="inputbox mod-search_searchword" type="text" size="20" value=" " onblur="if (this.value == '') this.value = ' ';" onfocus="if (this.value == ' ') this.value = '';"> <button class="btn btn-primary" onclick="this.form.searchword.focus();"> </button> <input type="hidden" name="task" value="search">
+                                <input type="hidden" name="option" value="com_search">
+                                <input type="hidden" name="Itemid" value="101">
+                            </form>
+                            <a href="/Manage/ConfigurationSettings">Configuration Settings</a>
+                        </div>
+                    </div>
+                </div>
+            </header>
+        </div>
+    </div>
+</div>

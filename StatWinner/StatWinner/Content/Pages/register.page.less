@@ -1,0 +1,43 @@
+﻿@import (reference) "../Common/Colors.less";
+
+.registration-container
+{
+    background-color: #f5f7f8;
+    border: 1px solid @coGreen;
+    padding: 15px;  
+    max-width: 400px;    
+    min-width: 200px;
+    margin: auto;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+
+    label
+        {
+        font-weight: normal;
+    }
+
+    .table
+        {
+        > .row 
+            {
+            margin-bottom: 12px;
+
+            DIV.hor-line
+            { 
+                height: 1px;
+                background-color: @coGreen; 
+                margin-left: 20px; 
+                margin-right: 20px; 
+            }  
+
+            DIV.buttons
+            {
+                text-align: right;
+            }
+        }
+    }
+
+    SELECT{
+        max-width: 175px;
+    }
+}           

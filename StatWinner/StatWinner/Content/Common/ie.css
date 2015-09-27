@@ -1,0 +1,68 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#section-kmt .kmt-form-content .kmt-form-addon > div .input.kmt-location {
+  max-width: 1000px !important;
+}
+#contact_map {
+  height: 376px;
+}
+ul.gallery {
+  margin-left: -20px;
+}
+ul.gallery .gallery-item {
+  padding-left: 20px;
+}
+.moduletable.care,
+.moduletable.news {
+  padding-left: 0;
+}
+#content-row .container:before,
+#content-row .container:after {
+  display: none;
+}
+.page-category__main .item_introtext img {
+  height: 134px;
+}
+h2 {
+  font-size: 28px;
+}
+.gallery-flickr ul li {
+  width: 60px;
+}
+#component {
+  padding-right: 0 !important;
+}
+.offer .item_introtext {
+  overflow: visible;
+}
+ul.gallery .gallery-item .item_img a.touchGalleryLink.zoom:before {
+  top: 0;
+}
+ul.gallery .gallery-item .item_img a.touchGalleryLink.zoom:after {
+  bottom: 0;
+}

@@ -1,0 +1,384 @@
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.hide-text {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.input-block-level {
+  display: block;
+  width: 100%;
+  min-height: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+/*== 1200px and beyond ===================================================
+========================================================================*/
+/* Large desktop */
+@media (max-width: 1212px) {
+  .camera_prev {
+    left: 20px !important;
+  }
+  .camera_next {
+    right: 20px !important;
+  }
+}
+/*== Up to 1200px =====================================================
+========================================================================*/
+/* Large desktop */
+@media (max-width: 1200px) {
+  #contact_map {
+    height: 376px;
+  }
+  ul.gallery {
+    margin-left: -20px;
+  }
+  ul.gallery .gallery-item {
+    padding-left: 20px;
+  }
+  .moduletable.care,
+  .moduletable.news {
+    padding-left: 0;
+  }
+  #content-row .container:before,
+  #content-row .container:after {
+    display: none;
+  }
+  .page-category__main .item_introtext img {
+    height: 134px;
+  }
+  .item_fulltext img {
+    height: 134px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .gallery-flickr ul li {
+    width: 60px;
+  }
+  #component {
+    padding-right: 0 !important;
+  }
+  .offer .item_introtext {
+    overflow: visible;
+  }
+}
+/*== Up to 980px ======================================================
+========================================================================*/
+/* Narrow desktop */
+@media (max-width: 980px) {
+  .thumbnails {
+    margin-left: -12px;
+  }
+  .thumbnails > li {
+    margin-left: 12px;
+  }
+  /*footer*/
+  #back-top {
+    display: none !important;
+  }
+  ul.gallery {
+    margin-left: -12px;
+  }
+  ul.gallery .gallery-item {
+    padding-left: 12px;
+  }
+  .navigation ul.sf-menu > li > .sfHolder > a,
+  .navigation ul.sf-menu > li > .sfHolder > span.separator {
+    font-size: 13px;
+  }
+  .page-category__main .item_introtext img {
+    height: 107px;
+  }
+  .item_fulltext img {
+    height: 107px;
+  }
+  h2 {
+    font-size: 22px;
+  }
+  .gallery-flickr ul li {
+    width: 53px;
+  }
+  .gallery-flickr ul li + li {
+    margin-left: 10px;
+  }
+}
+/*== Up to 980px and beyond 768px ======================================
+========================================================================*/
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+  
+}
+/*== Up to 767px ======================================================
+========================================================================*/
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+  body {
+    padding: 0;
+  }
+  body .row-container {
+    padding: 0 20px;
+  }
+  #copyright {
+    padding: 0 0 20px;
+    text-align: center;
+  }
+  #copyright-row {
+    padding: 25px 0 0;
+  }
+  .search-block input {
+    width: 100%;
+  }
+  .team .item_img {
+    float: left;
+    margin-right: 20px;
+  }
+  .page-category__about .img-intro {
+    float: none;
+    margin-right: 0;
+  }
+  #wrapper {
+    margin: 0;
+  }
+  #footer-wrapper {
+    height: auto;
+  }
+  #push {
+    display: none;
+  }
+  .excellence .moduleTitle {
+    float: none;
+  }
+  .excellence .mod-custom {
+    float: none;
+  }
+  .social {
+    text-align: center;
+    padding: 0 0 20px;
+  }
+  #logo {
+    text-align: center;
+  }
+  #logo a {
+    margin: 0;
+  }
+  .nav.menu.pull-right.nav-pills {
+    float: none;
+    text-align: center;
+  }
+  .nav.menu.pull-right.nav-pills li {
+    float: none;
+    display: inline-block;
+  }
+  /*navigation*/
+  .select-menu {
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .sf-menu {
+    display: none !important;
+  }
+  /*content*/
+  .item-image.blog-image {
+    float: none;
+    margin: 0 0 20px 0;
+  }
+  .row-fluid [class*="itemSpan"] {
+    display: block;
+    float: none;
+    margin-left: 0;
+    width: auto;
+  }
+  /*gallery*/
+  .page-gallery ul.gallery {
+    margin-left: 0;
+  }
+  .page-gallery ul.gallery .gallery-item {
+    padding-left: 0;
+    float: none;
+  }
+  .page-gallery ul.gallery .gallery-item .item_img {
+    float: left;
+    margin: 0 17px 17px 0 !important;
+  }
+  .img-full__left.span5 {
+    width: 50%;
+  }
+  /*contact*/
+  .contact_details .contact_details_item {
+    width: 30%;
+    float: left;
+  }
+  /*Modules*/
+  /*search*/
+  .mod-search__aside .mod-search_searchword {
+    width: 50%;
+  }
+  /*login*/
+  .mod-login__aside .mod-login_username,
+  .mod-login__aside .mod-login_passwd {
+    width: 50%;
+  }
+  #back-top {
+    display: none !important;
+  }
+  .page-category__services {
+    margin-left: -20px;
+    width: auto;
+  }
+  .page-category__services .page_header {
+    padding-left: 20px;
+  }
+  .page-category__services .span4 {
+    float: left;
+    width: 50%;
+    padding-left: 20px;
+  }
+  .row-fluid:after {
+    display: none;
+  }
+}
+/*== Up to 640px ==================================================
+====================================================================*/
+@media (max-width: 640px) {
+  /*contact*/
+  .contact_details {
+    margin-bottom: 17px;
+  }
+  .contact_details .contact_details_item {
+    width: 100%;
+    float: none;
+  }
+  .page-blog .img-intro__left {
+    float: none;
+    margin-right: 0;
+  }
+}
+/*== Up to 480px ==================================================
+====================================================================*/
+/* Landscape phones and down */
+@media (max-width: 480px) {
+  /*contact*/
+  .contact_form {
+    width: 100%;
+  }
+  /*registration*/
+  .page-registration form input,
+  .page-remind form input,
+  .page-reset form input,
+  .page-login form input,
+  .page-login form input,
+  .page-profile__edit form input,
+  .page-registration form select,
+  .page-remind form select,
+  .page-reset form select,
+  .page-login form select,
+  .page-login form select,
+  .page-profile__edit form select {
+    width: 100%;
+  }
+  .page-registration form label,
+  .page-remind form label,
+  .page-reset form label,
+  .page-login form label,
+  .page-login form label,
+  .page-profile__edit form label {
+    display: inline-block;
+  }
+  .pagination ul li {
+    display: none;
+  }
+  .pagination ul li.pagination-prev,
+  .pagination ul li.pagination-next {
+    display: inline-block;
+  }
+  /*gallery*/
+  .page-gallery .item_img.img-intro {
+    float: none;
+    margin: 0 0 17px 0;
+  }
+  .page-gallery ul.gallery .gallery-item {
+    text-align: center;
+  }
+  .page-gallery ul.gallery .gallery-item .item_img {
+    float: none;
+    margin: 0 0 17px 0 !important;
+  }
+  .page-gallery ul.gallery .gallery-item a.zoom {
+    display: inline-block;
+  }
+  .img-full__left.span5 {
+    width: 100%;
+    margin-right: 0;
+  }
+  .item_img {
+    float: none !important;
+    margin-right: 0 !important;
+  }
+  /*archive*/
+  .page-archive_filters select {
+    display: block;
+    width: 100%;
+  }
+  /*contact*/
+  .contact_details .contact_details_item {
+    width: 100%;
+    float: none;
+  }
+  /*Modules*/
+  /*search*/
+  .mod-search__aside .mod-search_searchword {
+    width: 100%;
+  }
+  /*login*/
+  .mod-login__aside .mod-login_userdata {
+    width: 100%;
+    overflow: hidden;
+  }
+  .mod-login__aside .mod-login_username,
+  .mod-login__aside .mod-login_passwd {
+    width: 100%;
+  }
+  div.modal {
+    position: absolute;
+  }
+}
+@media (max-width: 440px) {
+  ul#filters {
+    text-align: left;
+  }
+  ul#filters li {
+    display: block;
+  }
+  ul#filters li:before {
+    display: none !important;
+  }
+  .page-category__services {
+    margin-left: 0px;
+  }
+  .page-category__services .page_header {
+    padding-left: 0px;
+  }
+  .page-category__services .span4 {
+    float: none;
+    width: 100%;
+    padding-left: 0px;
+  }
+  .page-category__services .span4 img {
+    width: 100%;
+  }
+}

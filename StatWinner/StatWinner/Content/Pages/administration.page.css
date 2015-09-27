@@ -1,0 +1,21 @@
+﻿body .event-in-place-edit {
+  max-width: 1400px;
+  padding: 20px 20px 20px 50px;
+  border: 1px solid #339933;
+}
+body .event-in-place-edit .row {
+  margin-bottom: 15px;
+}
+body .event-in-place-edit .row > div {
+  padding: 0;
+}
+body .event-in-place-edit .row > div .input-title {
+  display: block;
+  font-weight: normal;
+}
+body .event-in-place-edit .row > div > SPAN.text {
+  font-weight: bold;
+}
+body .event-in-place-edit .row > div INPUT[type='text'] {
+  width: 90%;
+}

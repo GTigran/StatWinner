@@ -1,0 +1,13 @@
+{
+  "name": "jquery.mobilemenu",
+  "homepage": "https://github.com/mattkersley/Responsive-Menu",
+  "_release": "0646f38ec8",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "0646f38ec8f830e46c2a6510b7d7cb5efb32481f"
+  },
+  "_source": "git://github.com/mattkersley/Responsive-Menu.git",
+  "_target": "*",
+  "_originalSource": "jquery.mobilemenu"
+}

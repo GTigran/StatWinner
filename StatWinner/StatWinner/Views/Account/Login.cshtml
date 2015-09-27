@@ -1,0 +1,77 @@
+﻿@using StatWinner.Models
+@model LoginViewModel
+@{
+    ViewBag.Title = "Log in";
+}
+
+
+@Styles.Render("~/Content/Login")
+
+@section Scripts {
+    @Scripts.Render("~/bundles/Login")
+}
+
+<div class="page-inner-container" ng-controller="SignInController" ng-app="stat_winner_module">
+    <div class="page-title">Log In</div>
+
+    <div class="sign-in-main">
+        <div class="row">
+            <div class="col-sm-12">
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="row">
+                <div class="col-sm-9">
+                    <div class="signin-error" ng-show="errorMessage" >
+                        {{errorMessage}}
+                    </div>
+
+                    <div class="signin-container" >
+                        <div class="table" ng-form name="signInForm" data-model-name="model" default-button="btnSignIn"> 
+                            <div class="row">
+                                <div class="col-sm-4">
+                                    <label>Email: <span class="error">*</span> </label>
+                                </div>
+                                <div class="col-sm-8">
+                                    <input type="text" ng-model="model.Email" ng-required="true" ng-model-options='{ allowInvalid: true }' transfer-validation='{{signInForm.$valid }}' is-changed='{{model.IsElementValueChanged}}' show-validation-error='{{model.ShowValidationFields.Email}}' name="Email"/>
+                                    <div validation-message error='{{signInForm.Email.$error}}' class='validation-error' show-validation-error='{{model.ShowValidationFields.Email}}'></div>
+                                </div>
+                            </div>
+                            <div class="row last">
+                                <div class="col-sm-4">
+                                    <label>Password: <span class="error">*</span></label>
+                                </div>
+                                <div class="col-sm-8">
+                                    <input type="Password" ng-model="model.Password" ng-required="true" ng-model-options='{ allowInvalid: true }' transfer-validation='{{signInForm.$valid }}' is-changed='{{model.IsElementValueChanged}}' show-validation-error='{{model.ShowValidationFields.Password}}' name="Password" compare-validator="true" compare-validator-otherfield="ConfirmPassword" compare-validator-operator="eq" ng-minlength="5"/>
+                                    <div validation-message error='{{signInForm.Password.$error}}' class='validation-error' show-validation-error='{{model.ShowValidationFields.Password}}' compareValidatorMessage="Passwords are not equal!" minlengthMessage="Password should have at least 5 symbols"></div>
+                                </div>
+                            </div>
+                            <row class="row last" >
+                                <div class="col-sm-12">
+                                    <label>Remember me: <input type="checkbox" ng-model="model.RememberMe"/></label>
+                                </div>
+                            </row>
+                            <div class="row">
+                                <div class="hor-line">
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-12 buttons">
+                                    <button class="btn btn-primary" ng-click="SignIn()" id="btnSignIn">Log In</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-alternative-login">
+                    <strong>Alternative Login</strong>
+                    <divc class="row" >
+                        <img src="/Content/Images/facebook_logo.png" ng-click="facebookLogin()" class="facebook_login" />
+                    </divc>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

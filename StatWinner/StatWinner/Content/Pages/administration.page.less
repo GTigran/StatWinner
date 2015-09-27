@@ -1,0 +1,36 @@
+﻿@import (reference) "../Common/Colors.less";
+
+body {
+
+    .event-in-place-edit
+    {
+        max-width: 1400px;
+        padding: 20px 20px 20px 50px; 
+
+        border: 1px solid @coGreen; 
+
+        .row
+        {
+            >div
+                {
+                    padding: 0;
+                    .input-title 
+                    {
+                        display: block;
+                        font-weight: normal;
+                    }
+
+                    >SPAN.text
+                    {
+                        font-weight: bold;
+                    }
+
+                    INPUT[type='text']
+                    {
+                        width: 90%;
+                    }
+            }
+            margin-bottom: 15px;
+        }
+    }
+}

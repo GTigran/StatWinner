@@ -1,0 +1,34 @@
+﻿[
+  {
+    "outputFile": "Content/Common/Site.css",
+    "inputFile": "Content/Common/Site.less"
+  },
+  {
+    "outputFile": "Content/Pages/register.page.css",
+    "inputFile": "Content/Pages/register.page.less"
+  },
+  {
+    "outputFile": "Content/Common/sss.css",
+    "inputFile": "Content/Common/sss.less"
+  },
+  {
+    "outputFile": "Content/Common/Site1.css",
+    "inputFile": "Content/Common/Site1.less"
+  },
+  {
+    "outputFile": "Content/Pages/Site.css",
+    "inputFile": "Content/Pages/Site.less"
+  },
+  {
+    "outputFile": "Content/Pages/login.page.css",
+    "inputFile": "Content/Pages/login.page.less"
+  },
+  {
+    "outputFile": "Content/Pages/signIn.page.css",
+    "inputFile": "Content/Pages/signIn.page.less"
+  },
+  {
+    "outputFile": "Content/Pages/administration.page.css",
+    "inputFile": "Content/Pages/administration.page.less"
+  }
+]

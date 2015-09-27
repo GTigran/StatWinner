@@ -1,0 +1,12 @@
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\AspNet.Identity.MongoDB\bin\Debug\AspNet.Identity.MongoDB.dll
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\AspNet.Identity.MongoDB\bin\Debug\AspNet.Identity.MongoDB.pdb
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\AspNet.Identity.MongoDB\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\AspNet.Identity.MongoDB\bin\Debug\MongoDB.Bson.dll
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\AspNet.Identity.MongoDB\bin\Debug\MongoDB.Driver.Core.dll
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\AspNet.Identity.MongoDB\bin\Debug\MongoDB.Driver.dll
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\AspNet.Identity.MongoDB\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\AspNet.Identity.MongoDB\bin\Debug\MongoDB.Bson.xml
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\AspNet.Identity.MongoDB\bin\Debug\MongoDB.Driver.xml
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\AspNet.Identity.MongoDB\obj\Debug\AspNet.Identity.MongoDB.csprojResolveAssemblyReference.cache
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\AspNet.Identity.MongoDB\obj\Debug\AspNet.Identity.MongoDB.dll
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\AspNet.Identity.MongoDB\obj\Debug\AspNet.Identity.MongoDB.pdb

@@ -1,0 +1,13 @@
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\StatWinner.Configuration.Interfaces\bin\Debug\StatWinner.Configuration.Interfaces.dll
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\StatWinner.Configuration.Interfaces\bin\Debug\StatWinner.Configuration.Interfaces.pdb
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\StatWinner.Configuration.Interfaces\bin\Debug\StatWinner.Common.dll
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\StatWinner.Configuration.Interfaces\bin\Debug\HtmlAgilityPack.dll
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\StatWinner.Configuration.Interfaces\bin\Debug\StructureMap.dll
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\StatWinner.Configuration.Interfaces\bin\Debug\StatWinner.Common.pdb
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\StatWinner.Configuration.Interfaces\bin\Debug\HtmlAgilityPack.pdb
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\StatWinner.Configuration.Interfaces\bin\Debug\HtmlAgilityPack.xml
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\StatWinner.Configuration.Interfaces\bin\Debug\StructureMap.pdb
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\StatWinner.Configuration.Interfaces\bin\Debug\StructureMap.xml
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\StatWinner.Configuration.Interfaces\obj\Debug\StatWinner.Configuration.Interfaces.csprojResolveAssemblyReference.cache
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\StatWinner.Configuration.Interfaces\obj\Debug\StatWinner.Configuration.Interfaces.dll
+C:\TFS\StatWinner\StatWinnerMVC5\StatWinner\StatWinner.Configuration.Interfaces\obj\Debug\StatWinner.Configuration.Interfaces.pdb

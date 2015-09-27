@@ -1,0 +1,22 @@
+{
+  "name": "jquery-flickr",
+  "main": [
+    "jquery-flickr.js"
+  ],
+  "ignore": [],
+  "keywords": [
+    "jquery",
+    "flickr",
+    "javascript"
+  ],
+  "homepage": "https://github.com/victorhqc/jquery-flickr",
+  "_release": "dae73fdd8a",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "dae73fdd8aa30f9bf2c778a9290e06fa46071383"
+  },
+  "_source": "git://github.com/victorhqc/jquery-flickr.git",
+  "_target": "*",
+  "_originalSource": "jquery-flickr"
+}

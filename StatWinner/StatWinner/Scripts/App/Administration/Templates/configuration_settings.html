@@ -1,0 +1,13 @@
+﻿<div>
+    <div class="pull-right">
+        <button class="btn btnIcon" ng-click="addNewRow()"  title="Add New Config">
+            <i class="icon-plus" style="font-size: 20px;"></i>
+        </button>
+        <button class="btn btnIcon remove-button" ng-click="RemoveSelectedItems()" ng-show="HasGridSelectedItems()" title="Remove Selected">
+            <i class="icon-trashcan"></i>
+        </button>
+    </div>
+    <br class="clear" />
+    <kendo-grid k-options="MainGridOptions">
+    </kendo-grid>
+</div>

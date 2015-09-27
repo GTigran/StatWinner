@@ -1,0 +1,80 @@
+﻿
+
+<div class="event-in-place-edit" ng-form name="notificationEventForm" data-model-name="model" default-button="btnSave" >
+    <div class="row">
+        <div class="col-sm-3">
+            <label class="input-title">Event Key</label>
+            <input type="text" ng-model="model.EventKey" ng-required="true" ng-model-options='{ allowInvalid: true }' transfer-validation='{{notificationEventForm.$valid }}' is-changed='{{model.IsElementValueChanged}}' show-validation-error='{{model.ShowValidationFields.EventKey}}' name="EventKey"/>
+            <div validation-message error='{{notificationEventForm.EventKey.$error}}' class='validation-error' show-validation-error='{{model.ShowValidationFields.EventKey}}'></div>
+        </div>
+        <div class="col-sm-3">
+            <label class="input-title">Event Category</label>
+            <select id="EventCategoryId" ng-model="model.EventCategoryId" ng-required="true" ng-model-options='{ allowInvalid: true }' transfer-validation='{{notificationEventForm.$valid }}' is-changed='{{model.IsElementValueChanged}}' show-validation-error='{{model.ShowValidationFields.EventCategoryId}}' name="EventCategoryId">
+            </select>
+            <div validation-message error='{{notificationEventForm.EventCategoryId.$error}}' class='validation-error' show-validation-error='{{model.ShowValidationFields.EventCategoryId}}'></div>
+        </div>
+        <div class="col-sm-3">
+            <label class="input-title">Name</label>
+            <input type="text" ng-model="model.Name" ng-required="true" ng-model-options='{ allowInvalid: true }' transfer-validation='{{notificationEventForm.$valid }}' is-changed='{{model.IsElementValueChanged}}' show-validation-error='{{model.ShowValidationFields.Name}}' name="Name" />
+            <div validation-message error='{{notificationEventForm.Name.$error}}' class='validation-error' show-validation-error='{{model.ShowValidationFields.Name}}'></div>
+        </div>
+        <div class="col-sm-3">
+            <label class="input-title">To Email Addresses</label>
+            <input type="text" ng-model="model.ToEmailAddressesString"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <label class="input-title">Is Html</label>
+            <input type="checkbox" ng-model="model.IsHtml"/>
+        </div>
+        <div class="col-sm-3">
+            <label class="input-title">Send Email Notification</label>
+            <input type="checkbox" ng-model="model.SendEmailNotification"/>
+        </div>
+        <div class="col-sm-3">
+            <label class="input-title">Send System Notification</label>
+            <input type="checkbox" ng-model="model.SendSystemNotification"/>
+        </div>
+        <div class="col-sm-3">
+            <label class="input-title">Is User Subscription Required</label>
+            <input type="checkbox" ng-model="model.IsUserSubscriptionRequired"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3">
+            <label class="input-title">Created By</label>
+            <span>{{model.CreatedBy.FullName}}</span>
+        </div>
+        <div class="col-sm-3">
+            <label class="input-title">Created Date</label>
+            <span>{{model.CreatedDate}}</span>
+        </div>
+        <div class="col-sm-3">
+            <label class="input-title">Modified By</label>
+            <span>{{model.ModifiedBy.FullName}}</span>
+        </div>
+        <div class="col-sm-3">
+            <label class="input-title">Is User Subscription Required</label>
+            <span>{{model.ModifiedDate}}</span>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-5">
+            <label class="input-title">Subject</label>
+            <input type="text" ng-model="model.Subject" ng-required="true" ng-model-options='{ allowInvalid: true }' transfer-validation='{{notificationEventForm.$valid }}' is-changed='{{model.IsElementValueChanged}}' show-validation-error='{{model.ShowValidationFields.Subject}}' name="Subject" />
+            <div validation-message error='{{notificationEventForm.Subject.$error}}' class='validation-error' show-validation-error='{{model.ShowValidationFields.Subject}}'></div>
+        </div>
+        <div class="col-sm-7">
+            <label class="input-title">Body</label>
+            <textarea ng-model="model.Body" ng-model-options='{ allowInvalid: true }' transfer-validation='{{notificationEventForm.$valid }}' is-changed='{{model.IsElementValueChanged}}' show-validation-error='{{model.ShowValidationFields.Body}}' name="Body"/>
+            <div validation-message error='{{notificationEventForm.Body.$error}}' class='validation-error' show-validation-error='{{model.ShowValidationFields.Body}}'></div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-12">
+            <button class="btn btn-default" id="btnCancel" ng-click="CancelEvent()" >Cancel</button>&nbsp;
+            <button class="btn btn-primary" id="btnSave" ng-click="SaveEvent()">Save</button>
+        </div>
+    </div>
+    </div>

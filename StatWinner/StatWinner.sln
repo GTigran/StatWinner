@@ -1,0 +1,225 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatWinner.Web", "StatWinner\StatWinner.Web.csproj", "{4EE83570-DA89-405F-8584-323B620DED9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Applications", "Applications", "{F5D7820D-1938-40C5-A19C-4E641FE7A5BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HistoricalDataParser", "HistoricalDataParser\HistoricalDataParser.csproj", "{CD7DE084-4C14-4D19-AC83-1A71C1B18EA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AspNetIdentity", "AspNetIdentity", "{E9A2F003-EA33-432D-A332-870069D3B6CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet.Identity.MongoDB", "AspNet.Identity.MongoDB\AspNet.Identity.MongoDB.csproj", "{7A91230F-4EED-489B-B596-FF5D83CCB07C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNet.Identity.MongoDB.Configuration", "AspNet.Identity.MongoDB.Configuration\AspNet.Identity.MongoDB.Configuration.csproj", "{4F9DFC01-F35E-4A56-9AFB-D39638865303}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{B666749F-F00B-44D3-8421-7A6E0AC8C720}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatWinner.Common", "StatWinner.Common\StatWinner.Common.csproj", "{6531507E-2D5C-47E1-8B89-8C4C983A3D7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConfigurationManagement", "ConfigurationManagement", "{A0E5D170-F24D-4176-B804-F8CB1CC99ECB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatWinner.Configuration.Interfaces", "StatWinner.Configuration.Interfaces\StatWinner.Configuration.Interfaces.csproj", "{8C9DFCEC-BE40-4FE9-BFF5-5F0231EBA11C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatWinner.Configuration", "StatWinner.Configuration\StatWinner.Configuration.csproj", "{F1715761-CAD8-45F5-8D34-FA2516B8EA13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatWinner.Configuration.MongoDBProvider", "StatWinner.Configuration.MongoDBProvider\StatWinner.Configuration.MongoDBProvider.csproj", "{82FCD9B2-8A5E-4B13-910D-F6D0FCAFF396}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NotificationEngine", "NotificationEngine", "{0CEB8D05-97EE-4010-A524-548B3C8C97E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatWinner.Notification.BLL.Mongo", "StatWinner.Notification.BLL.Mongo\StatWinner.Notification.BLL.Mongo.csproj", "{59A79577-C722-4F92-8147-A6AB314937C0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatWinner.NotificationEngine.BLL", "StatWinner.NotificationEngine.BLL\StatWinner.NotificationEngine.BLL.csproj", "{D1D31A11-7578-4FD8-B91A-C9B61256A1DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatWinner.NotificationEngine.BLL.Common", "StatWinner.NotificationEngine.BLL.Common\StatWinner.NotificationEngine.BLL.Common.csproj", "{98974038-3C19-4FF9-AC7A-8D3D73C838F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{E24D49D8-8205-4865-827C-54313CBF0445}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatWinner.WebApi.ConfigurationSettings", "StatWinner.WebApi.ConfigurationSettings\StatWinner.WebApi.ConfigurationSettings.csproj", "{FFE7ADA2-A987-487C-A53F-CC26118C5C45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatWinner.WebApi.NotificationEngine", "StatWinner.WebApi.NotificationEngine\StatWinner.WebApi.NotificationEngine.csproj", "{31035F8E-64A5-4752-B4F8-A64A182CC956}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatWinner.WebApi.AccountManagement", "StatWinner.WebApi.AccountManagement\StatWinner.WebApi.AccountManagement.csproj", "{0EEBC1BF-DE8B-469A-98F5-B6FFBACD7FCE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AccountManagement", "AccountManagement", "{644BD3B8-C6C7-482D-ABB6-C01A3E5F4C59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatWinner.AccountManagement.BLL.Common", "StatWinner.AccountManagement.BLL.Common\StatWinner.AccountManagement.BLL.Common.csproj", "{ADEBCE9D-DBF9-4472-A540-1ED73F3E3F12}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatWinner.AccountManagement.BLL", "StatWinner.AccountManagement.BLL\StatWinner.AccountManagement.BLL.csproj", "{2A5E441F-490C-413B-9F04-0D16092DD175}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatWinner.AccountManagement.BLL.Mongo", "StatWinner.AccountManagement.BLL.Mongo\StatWinner.AccountManagement.BLL.Mongo.csproj", "{B2655DD4-D825-45BC-8590-EC529F13AA5E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4EE83570-DA89-405F-8584-323B620DED9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE83570-DA89-405F-8584-323B620DED9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE83570-DA89-405F-8584-323B620DED9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE83570-DA89-405F-8584-323B620DED9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD7DE084-4C14-4D19-AC83-1A71C1B18EA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD7DE084-4C14-4D19-AC83-1A71C1B18EA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD7DE084-4C14-4D19-AC83-1A71C1B18EA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD7DE084-4C14-4D19-AC83-1A71C1B18EA2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A91230F-4EED-489B-B596-FF5D83CCB07C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A91230F-4EED-489B-B596-FF5D83CCB07C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A91230F-4EED-489B-B596-FF5D83CCB07C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A91230F-4EED-489B-B596-FF5D83CCB07C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F9DFC01-F35E-4A56-9AFB-D39638865303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F9DFC01-F35E-4A56-9AFB-D39638865303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F9DFC01-F35E-4A56-9AFB-D39638865303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F9DFC01-F35E-4A56-9AFB-D39638865303}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6531507E-2D5C-47E1-8B89-8C4C983A3D7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6531507E-2D5C-47E1-8B89-8C4C983A3D7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6531507E-2D5C-47E1-8B89-8C4C983A3D7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6531507E-2D5C-47E1-8B89-8C4C983A3D7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C9DFCEC-BE40-4FE9-BFF5-5F0231EBA11C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C9DFCEC-BE40-4FE9-BFF5-5F0231EBA11C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C9DFCEC-BE40-4FE9-BFF5-5F0231EBA11C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C9DFCEC-BE40-4FE9-BFF5-5F0231EBA11C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1715761-CAD8-45F5-8D34-FA2516B8EA13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1715761-CAD8-45F5-8D34-FA2516B8EA13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1715761-CAD8-45F5-8D34-FA2516B8EA13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1715761-CAD8-45F5-8D34-FA2516B8EA13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{82FCD9B2-8A5E-4B13-910D-F6D0FCAFF396}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{82FCD9B2-8A5E-4B13-910D-F6D0FCAFF396}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{82FCD9B2-8A5E-4B13-910D-F6D0FCAFF396}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{82FCD9B2-8A5E-4B13-910D-F6D0FCAFF396}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59A79577-C722-4F92-8147-A6AB314937C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59A79577-C722-4F92-8147-A6AB314937C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59A79577-C722-4F92-8147-A6AB314937C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59A79577-C722-4F92-8147-A6AB314937C0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1D31A11-7578-4FD8-B91A-C9B61256A1DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1D31A11-7578-4FD8-B91A-C9B61256A1DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1D31A11-7578-4FD8-B91A-C9B61256A1DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1D31A11-7578-4FD8-B91A-C9B61256A1DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98974038-3C19-4FF9-AC7A-8D3D73C838F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98974038-3C19-4FF9-AC7A-8D3D73C838F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98974038-3C19-4FF9-AC7A-8D3D73C838F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98974038-3C19-4FF9-AC7A-8D3D73C838F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFE7ADA2-A987-487C-A53F-CC26118C5C45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFE7ADA2-A987-487C-A53F-CC26118C5C45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFE7ADA2-A987-487C-A53F-CC26118C5C45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFE7ADA2-A987-487C-A53F-CC26118C5C45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31035F8E-64A5-4752-B4F8-A64A182CC956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31035F8E-64A5-4752-B4F8-A64A182CC956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31035F8E-64A5-4752-B4F8-A64A182CC956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31035F8E-64A5-4752-B4F8-A64A182CC956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EEBC1BF-DE8B-469A-98F5-B6FFBACD7FCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EEBC1BF-DE8B-469A-98F5-B6FFBACD7FCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EEBC1BF-DE8B-469A-98F5-B6FFBACD7FCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EEBC1BF-DE8B-469A-98F5-B6FFBACD7FCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADEBCE9D-DBF9-4472-A540-1ED73F3E3F12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEBCE9D-DBF9-4472-A540-1ED73F3E3F12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEBCE9D-DBF9-4472-A540-1ED73F3E3F12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEBCE9D-DBF9-4472-A540-1ED73F3E3F12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A5E441F-490C-413B-9F04-0D16092DD175}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A5E441F-490C-413B-9F04-0D16092DD175}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A5E441F-490C-413B-9F04-0D16092DD175}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A5E441F-490C-413B-9F04-0D16092DD175}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2655DD4-D825-45BC-8590-EC529F13AA5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2655DD4-D825-45BC-8590-EC529F13AA5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2655DD4-D825-45BC-8590-EC529F13AA5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2655DD4-D825-45BC-8590-EC529F13AA5E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4EE83570-DA89-405F-8584-323B620DED9A} = {F5D7820D-1938-40C5-A19C-4E641FE7A5BC}
+		{CD7DE084-4C14-4D19-AC83-1A71C1B18EA2} = {F5D7820D-1938-40C5-A19C-4E641FE7A5BC}
+		{7A91230F-4EED-489B-B596-FF5D83CCB07C} = {E9A2F003-EA33-432D-A332-870069D3B6CF}
+		{4F9DFC01-F35E-4A56-9AFB-D39638865303} = {E9A2F003-EA33-432D-A332-870069D3B6CF}
+		{6531507E-2D5C-47E1-8B89-8C4C983A3D7B} = {B666749F-F00B-44D3-8421-7A6E0AC8C720}
+		{8C9DFCEC-BE40-4FE9-BFF5-5F0231EBA11C} = {A0E5D170-F24D-4176-B804-F8CB1CC99ECB}
+		{F1715761-CAD8-45F5-8D34-FA2516B8EA13} = {A0E5D170-F24D-4176-B804-F8CB1CC99ECB}
+		{82FCD9B2-8A5E-4B13-910D-F6D0FCAFF396} = {A0E5D170-F24D-4176-B804-F8CB1CC99ECB}
+		{59A79577-C722-4F92-8147-A6AB314937C0} = {0CEB8D05-97EE-4010-A524-548B3C8C97E2}
+		{D1D31A11-7578-4FD8-B91A-C9B61256A1DB} = {0CEB8D05-97EE-4010-A524-548B3C8C97E2}
+		{98974038-3C19-4FF9-AC7A-8D3D73C838F4} = {0CEB8D05-97EE-4010-A524-548B3C8C97E2}
+		{FFE7ADA2-A987-487C-A53F-CC26118C5C45} = {E24D49D8-8205-4865-827C-54313CBF0445}
+		{31035F8E-64A5-4752-B4F8-A64A182CC956} = {E24D49D8-8205-4865-827C-54313CBF0445}
+		{0EEBC1BF-DE8B-469A-98F5-B6FFBACD7FCE} = {E24D49D8-8205-4865-827C-54313CBF0445}
+		{ADEBCE9D-DBF9-4472-A540-1ED73F3E3F12} = {644BD3B8-C6C7-482D-ABB6-C01A3E5F4C59}
+		{2A5E441F-490C-413B-9F04-0D16092DD175} = {644BD3B8-C6C7-482D-ABB6-C01A3E5F4C59}
+		{B2655DD4-D825-45BC-8590-EC529F13AA5E} = {644BD3B8-C6C7-482D-ABB6-C01A3E5F4C59}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 18
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://hrachstatwinner.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = HistoricalDataParser\\HistoricalDataParser.csproj
+		SccProjectTopLevelParentUniqueName1 = StatWinner.sln
+		SccProjectName1 = HistoricalDataParser
+		SccLocalPath1 = HistoricalDataParser
+		SccProjectUniqueName2 = AspNet.Identity.MongoDB.Configuration\\AspNet.Identity.MongoDB.Configuration.csproj
+		SccProjectTopLevelParentUniqueName2 = StatWinner.sln
+		SccProjectName2 = AspNet.Identity.MongoDB.Configuration
+		SccLocalPath2 = AspNet.Identity.MongoDB.Configuration
+		SccProjectUniqueName3 = AspNet.Identity.MongoDB\\AspNet.Identity.MongoDB.csproj
+		SccProjectTopLevelParentUniqueName3 = StatWinner.sln
+		SccProjectName3 = AspNet.Identity.MongoDB
+		SccLocalPath3 = AspNet.Identity.MongoDB
+		SccProjectUniqueName4 = StatWinner.Common\\StatWinner.Common.csproj
+		SccProjectTopLevelParentUniqueName4 = StatWinner.sln
+		SccProjectName4 = StatWinner.Common
+		SccLocalPath4 = StatWinner.Common
+		SccProjectUniqueName5 = StatWinner\\StatWinner.Web.csproj
+		SccProjectTopLevelParentUniqueName5 = StatWinner.sln
+		SccProjectName5 = StatWinner
+		SccLocalPath5 = StatWinner
+		SccProjectUniqueName6 = StatWinner.Configuration.Interfaces\\StatWinner.Configuration.Interfaces.csproj
+		SccProjectTopLevelParentUniqueName6 = StatWinner.sln
+		SccProjectName6 = StatWinner.Configuration.Interfaces
+		SccLocalPath6 = StatWinner.Configuration.Interfaces
+		SccProjectUniqueName7 = StatWinner.Configuration\\StatWinner.Configuration.csproj
+		SccProjectTopLevelParentUniqueName7 = StatWinner.sln
+		SccProjectName7 = StatWinner.Configuration
+		SccLocalPath7 = StatWinner.Configuration
+		SccProjectUniqueName8 = StatWinner.Configuration.MongoDBProvider\\StatWinner.Configuration.MongoDBProvider.csproj
+		SccProjectTopLevelParentUniqueName8 = StatWinner.sln
+		SccProjectName8 = StatWinner.Configuration.MongoDBProvider
+		SccLocalPath8 = StatWinner.Configuration.MongoDBProvider
+		SccProjectUniqueName9 = StatWinner.Notification.BLL.Mongo\\StatWinner.Notification.BLL.Mongo.csproj
+		SccProjectTopLevelParentUniqueName9 = StatWinner.sln
+		SccProjectName9 = StatWinner.Notification.BLL.Mongo
+		SccLocalPath9 = StatWinner.Notification.BLL.Mongo
+		SccProjectUniqueName10 = StatWinner.NotificationEngine.BLL\\StatWinner.NotificationEngine.BLL.csproj
+		SccProjectTopLevelParentUniqueName10 = StatWinner.sln
+		SccProjectName10 = StatWinner.NotificationEngine.BLL
+		SccLocalPath10 = StatWinner.NotificationEngine.BLL
+		SccProjectUniqueName11 = StatWinner.NotificationEngine.BLL.Common\\StatWinner.NotificationEngine.BLL.Common.csproj
+		SccProjectTopLevelParentUniqueName11 = StatWinner.sln
+		SccProjectName11 = StatWinner.NotificationEngine.BLL.Common
+		SccLocalPath11 = StatWinner.NotificationEngine.BLL.Common
+		SccProjectUniqueName12 = StatWinner.WebApi.ConfigurationSettings\\StatWinner.WebApi.ConfigurationSettings.csproj
+		SccProjectTopLevelParentUniqueName12 = StatWinner.sln
+		SccProjectName12 = StatWinner.WebApi.ConfigurationSettings
+		SccLocalPath12 = StatWinner.WebApi.ConfigurationSettings
+		SccProjectUniqueName13 = StatWinner.WebApi.NotificationEngine\\StatWinner.WebApi.NotificationEngine.csproj
+		SccProjectTopLevelParentUniqueName13 = StatWinner.sln
+		SccProjectName13 = StatWinner.WebApi.NotificationEngine
+		SccLocalPath13 = StatWinner.WebApi.NotificationEngine
+		SccProjectUniqueName14 = StatWinner.WebApi.AccountManagement\\StatWinner.WebApi.AccountManagement.csproj
+		SccProjectTopLevelParentUniqueName14 = StatWinner.sln
+		SccProjectName14 = StatWinner.WebApi.AccountManagement
+		SccLocalPath14 = StatWinner.WebApi.AccountManagement
+		SccProjectUniqueName15 = StatWinner.AccountManagement.BLL.Common\\StatWinner.AccountManagement.BLL.Common.csproj
+		SccProjectTopLevelParentUniqueName15 = StatWinner.sln
+		SccProjectName15 = StatWinner.AccountManagement.BLL.Common
+		SccLocalPath15 = StatWinner.AccountManagement.BLL.Common
+		SccProjectUniqueName16 = StatWinner.AccountManagement.BLL\\StatWinner.AccountManagement.BLL.csproj
+		SccProjectTopLevelParentUniqueName16 = StatWinner.sln
+		SccProjectName16 = StatWinner.AccountManagement.BLL
+		SccLocalPath16 = StatWinner.AccountManagement.BLL
+		SccProjectUniqueName17 = StatWinner.AccountManagement.BLL.Mongo\\StatWinner.AccountManagement.BLL.Mongo.csproj
+		SccProjectTopLevelParentUniqueName17 = StatWinner.sln
+		SccProjectName17 = StatWinner.AccountManagement.BLL.Mongo
+		SccLocalPath17 = StatWinner.AccountManagement.BLL.Mongo
+	EndGlobalSection
+EndGlobal

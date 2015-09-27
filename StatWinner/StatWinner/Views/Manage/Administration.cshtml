@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "Administration";
+}
+
+@Styles.Render("~/Content/Administration")
+
+
+@section scripts
+{
+    @Scripts.Render("~/bundles/Administration")
+}
+
+<base href="/Manage/Administration/" />
+
+<div ng-controller="AdministrationMainController" ng-app="stat_winner_module">
+    <div class="management">
+        <div class="management-header">
+            <div class="left-title-bar">
+                <a href="javascript:;" id="left-pane-toggle" left-pane-show-hide><span></span></a>&nbsp;
+            </div>
+            <div class="right-title-bar" ui-view="rightTitleBar">
+
+            </div>
+        </div>
+        <div class="left-pane" configure-content-height>
+            <div class="pane-title">
+                ADMINISTRATION
+            </div>
+            <div class="pane-section-header">
+                General Settings
+            </div>
+            <div class="pane-item" ng-class="currentSecion == 'Configuration_Section' ? 'active' : ''">
+                <a ui-sref="configuration_settings">Configuration Settings</a>
+            </div>
+            <div class="pane-item" ng-class="currentSecion == 'User_Management' ? 'active' : ''">
+                <a ui-sref="user_management">User Management</a>
+            </div>
+            <div class="pane-section-header">
+                Notification Managements
+            </div>
+            <div class="pane-item" ng-class="currentSecion == 'Notification_Event_Categories' ? 'active' : ''">
+                <a href="javascript:;" ui-sref="notification_event_categories">Event Categories</a>
+            </div>
+            <div class="pane-item" ng-class="currentSecion == 'Notification_Events' ? 'active' : ''">
+                <a href="javascript:;" ui-sref="notification_events">Event Management</a>
+            </div>
+
+        </div>
+        <div class="right-pane" configure-content-height ui-view="mainContent">
+        </div>
+    </div>
+</div>
+
+
+
